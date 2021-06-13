@@ -19,7 +19,7 @@ def test2():
 def test3():
     """A dummy docstring."""
     response = app.test_client().get("/edit")
-    assert b"To Do App" in response.data
+    assert b"Checklist App" in response.data
     assert b"Todo Title" in response.data
     assert b"Add" in response.data
 
