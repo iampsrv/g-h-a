@@ -18,15 +18,6 @@ class Todo(db.Model): # pylint: disable=too-few-public-methods
     title = db.Column(db.String(100))
     complete = db.Column(db.Boolean)
 
-    def pub1(self):
-        """A dummy docstring."""
-        print("")
-
-    def pub2(self):
-        """A dummy docstring."""
-        print("")
-
-
 @app.route("/edit")
 def home1():
     """A dummy docstring."""
